@@ -10,7 +10,7 @@ public class MainActivity extends Activity {
  
     Button button0 , button1 , button2 , button3 , button4 , button5 , button6 ,
             button7 , button8 , button9 , buttonAdd , buttonSub , buttonDivision ,
-            buttonMul , button11 , buttonC , buttonEqual ;
+            buttonMul , button11 ,button10, buttonC , buttonEqual ;
  
     EditText edt1 ;
  
@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
  
-        button11 = (Button) findViewById(R.id.button11);
+        button0 = (Button) findViewById(R.id.button11);
         button1 = (Button) findViewById(R.id.button1);
         button2 = (Button) findViewById(R.id.button2);
         button3 = (Button) findViewById(R.id.button3);
@@ -33,6 +33,7 @@ public class MainActivity extends Activity {
         button7 = (Button) findViewById(R.id.button7);
         button8 = (Button) findViewById(R.id.button8);
         button9 = (Button) findViewById(R.id.button9);
+        button10 = (Button) findViewById(R.id.button17);
         buttonAdd = (Button) findViewById(R.id.button10);
         buttonSub = (Button) findViewById(R.id.button14);
         buttonMul = (Button) findViewById(R.id.button15);
@@ -105,7 +106,7 @@ public class MainActivity extends Activity {
             }
         });
  
-        button11.setOnClickListener(new View.OnClickListener() {
+        button0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 edt1.setText(edt1.getText()+"0");
@@ -189,7 +190,7 @@ public class MainActivity extends Activity {
             }
         });
  
-        button11.setOnClickListener(new View.OnClickListener() {
+        button10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 edt1.setText(edt1.getText()+".");
