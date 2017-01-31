@@ -17,4 +17,8 @@
 	<string name="minus">-</string>
 	<string name="mul">*</string>
 	<string name="div">/</string>
+	<string name="dot">.</string>
+	<string name="clr">CLR</string>
+	<string name="zero">0</string>
+	<string name="eq">=</string>
 </resources>

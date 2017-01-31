@@ -18,15 +18,6 @@
         android:text="@string/lt"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:labelFor="@+id/editText1" />
-    
-    <EditText
-        android:id="@+id/editText1"
-        android:inputType="text"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"/>
 
     <Button
         android:id="@+id/button1"
@@ -106,6 +97,24 @@
         android:layout_alignBottom="@+id/button8"
         android:layout_alignEnd="@+id/button6"
         android:text="@string/nine" />
+    
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button10"
+        android:layout_alignBottom="@+id/button10"
+        android:layout_alignLeft="@+id/button8"
+        android:text="@string/minus" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignParentBottom="true"
+        android:text="@string/div" />
 
     <Button
         android:id="@+id/button10"
@@ -114,42 +123,61 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/button7"
         android:layout_below="@+id/button7"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/button2"
         android:text="@string/plus" />
 
     <Button
-        android:id="@+id/button13"
-        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/button17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button12"
-        android:layout_alignBottom="@+id/button12"
-        android:layout_marginStart="16dp"
-        android:layout_toEndOf="@+id/button12"
-        android:layout_toRightOf="@+id/button12"
-        android:text="@string/div" />
+        android:layout_alignBaseline="@+id/button16"
+        android:layout_alignBottom="@+id/button16"
+        android:layout_alignLeft="@+id/button14"
+        android:text="@string/dot" />
 
     <Button
-        android:id="@+id/button12"
-        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/button18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button11"
-        android:layout_alignBottom="@+id/button11"
-        android:layout_marginStart="16dp"
-        android:layout_toEndOf="@+id/button11"
-        android:layout_toRightOf="@+id/button11"
+        android:layout_alignBaseline="@+id/button17"
+        android:layout_alignBottom="@+id/button17"
+        android:layout_alignLeft="@+id/button15"
+        android:text="@string/clr" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button14"
+        android:layout_alignBottom="@+id/button14"
+        android:layout_alignLeft="@+id/button9"
         android:text="@string/mul" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:inputType="text" />
 
     <Button
         android:id="@+id/button11"
-        style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button10"
-        android:layout_alignBottom="@+id/button10"
-        android:layout_toEndOf="@+id/button7"
-        android:layout_toRightOf="@+id/button7"
-        android:text="@string/minus" />
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="17dp"
+        android:text="@string/zero" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignLeft="@+id/button2"
+        android:text="@string/eq" />
         
 </RelativeLayout>
