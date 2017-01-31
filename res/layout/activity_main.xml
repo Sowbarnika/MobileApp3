@@ -7,10 +7,9 @@
     android:id="@+id/relative1">
  
     <EditText
+        android:id="@+id/edt1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/edt1"/>
- 
+        android:layout_height="wrap_content" />
  
     <Button
         style="?android:attr/buttonStyleSmall"
